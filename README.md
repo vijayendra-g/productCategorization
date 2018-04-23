@@ -26,7 +26,7 @@ Product attribute related to a particular product. These are key, value pairs th
     The class to which a product belongs. Values belong to the finite set (‘books’,’music’, ‘videos’,’rest’)
 
 
-### Methods
+# Methods
 
 The Jupyter Notebook productCategorization.ipynb can be used for experimentation. 
 
@@ -44,4 +44,3 @@ The Jupyter Notebook productCategorization.ipynb can be used for experimentation
                 b) Using a decision Tree regression model
 5. Testing samples are converted to TF-IDF vectors based on the vocabulary built on top of training samples.
 6. Both the methods are evaluated on the test data set and the results on the stored on the "submission.csv" file. The output CSV file has two new columns appended to the test data i.e, label_logReg and label_decTree as the predictions from the model a and model b, respectively.
-
